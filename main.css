@@ -1,0 +1,143 @@
+
+ /*global settings*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+body{
+	background-color: black;
+	color: #ccc;
+	font: 16px/1.5  Tahoma , sans-serif;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.clearfix:before , .clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	padding: 10px 10px;
+}
+/*header*/
+	
+	/*logo*/
+	.logo{
+		float: left;
+		border: 2px solid orange;
+		padding: 10px 10px;
+		cursor: pointer;
+	}
+	.logo .o{
+		color: orange;
+	}
+	/*/logo*/
+
+	/*nav*/
+	.mainNavigation{
+		float: right;
+		margin-top: 20px;
+		font-size: 19px;
+	}
+	.mainNavigation li{
+		float: left;
+		border-right: 1px solid orange;
+	}
+	.mainNavigation li.firstItem{
+		border-left: 1px solid orange;
+	}
+	/*.mainNavigation li.lastItem{
+		border-right: none;
+	}*/
+	.mainNavigation li a{
+		display: block;
+		padding: 0px 20px;
+	}
+	.mainNavigation li a:hover{
+		color: orange;
+		border-bottom: 1px solid orange;
+		border-top: 1px solid orange;
+	}
+	/*/nav*/
+	
+	/*slider*/
+	.slider{
+		background: url('images/desktop.jpg') no-repeat top center;
+		min-height: 500px;
+		line-height: 500px;	
+	}
+	.slider h2{
+		text-align: center;
+		font-size: 30px;
+		color: orange;
+	}
+	/*/slider*/
+/*/header*/
+
+/*main*/
+	
+	.boxes{
+		float: left;
+		width:80%;	
+		padding: 15px 15px;
+		background-color: #ccc;
+	}
+	.style{
+		margin:2%;
+		width: 46%;
+		float: left;
+		overflow: hidden;
+	}
+	.sidebar{
+		float: right;
+		width: 18%;
+		background-color: #ccc;	
+		color: #000;
+		margin-left:2%;
+	}
+	.sidebarNav{
+		text-align: center;
+	}
+	.sidebarNav li a{
+		display: block;
+		padding: 10px 10px;
+		color: #000;
+
+	}
+	.sidebarNav li a:hover{
+		background-color: orange;
+		color: #ccc;
+	}
+
+	.sidebar p{
+		font-size: 12px;
+		text-indent:5px;
+		background-color: grey;
+		padding: 5px 5px;
+	}
+/*/main*/
+
+/*footer*/
+	footer{
+		background-color: orange;
+		text-align: center;
+		font-size: 20px;
+		color: black;
+		padding: 20px 20px;
+	}
+/*/footer*/
